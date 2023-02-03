@@ -1,0 +1,62 @@
+.banner {
+    background: linear-gradient(to right, blue, rgba(70,61,138,255) 80%);
+    /* background: url(../Imagenes/banner.png); */
+    padding: 0px 0px 0px 0px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 50;
+    background-size: cover;
+    /*ESTO ES GOD*/
+    border-bottom: 7px solid black;
+}
+
+.title{
+    float: right;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+.logito{
+    position: relative;
+    top: 0px;
+    float: right;
+    width: 120px;
+    height: 100%;
+}
+
+.search-bar {
+    width: 25%;
+    position: relative;
+    margin: 20px;
+}
+
+.texto-ciudad {
+    box-sizing: border-box;
+    color: #191919;
+    padding: 15px 15px 15px 35px;
+    width: 100%;
+
+}
+
+.search-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.panel {
+    width: 95%;
+    height: 80%;
+    padding: auto;
+    margin-top: 120px;
+    /* background: linear-gradient(rgb(2, 2, 137), rgb(27, 89, 176)); */
+    border: 5px solid 475053;
+    border-radius: 5px;
+}
